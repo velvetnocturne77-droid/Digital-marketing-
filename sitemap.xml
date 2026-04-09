@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- SEO Services Page -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#seo</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Keyword Research Section -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#seo-keyword-research</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- On-Page SEO Section -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#seo-on-page</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Off-Page SEO & Backlinks Section -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#seo-off-page</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Paid Advertising & PPC Services Page -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#paid-ads</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Google Ads Section -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#google-ads</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Social Media Advertising Section -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#social-ads</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Content Marketing & Strategy Page -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#content</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Blog Posts Section -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#blog-posts</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Multimedia Content Section -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#multimedia-content</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Social Media Marketing Services Page -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#social</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Instagram Marketing Section -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#instagram-marketing</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Facebook Marketing Section -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#facebook-marketing</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- LinkedIn Marketing Section -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#linkedin-marketing</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Influencer Marketing Section -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#influencer-marketing</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Email Marketing & Analytics Page -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#analytics</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Email Marketing Section -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#email-marketing</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Google Analytics Section -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#google-analytics</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Advanced Marketing Concepts Section -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#advanced-marketing</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Why Choose Us Section -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#why-choose-us</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Contact Section -->
+    <url>
+        <loc>https://digitslmarketing.netlify.app/#contact</loc>
+        <lastmod>2025-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+</urlset>
