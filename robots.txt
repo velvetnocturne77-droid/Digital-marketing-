@@ -1,0 +1,47 @@
+# Robots.txt for Digital Marketing SEO Services Jalandhar Website
+# This file communicates with web crawlers about which content to index
+
+# Allow all crawlers to access the website
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /backup/
+Disallow: /*.pdf$
+Disallow: /*.zip$
+Disallow: /cgi-bin/
+Disallow: /images/admin/
+
+# Crawl delay to prevent overloading the server
+Crawl-delay: 1
+
+# Prevent access to specific directories and files
+User-agent: *
+Disallow: /config/
+Disallow: /database/
+Disallow: /.env
+Disallow: /.git
+Disallow: /.htaccess
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+
+# Allow Google Bot full access
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Allow Bing Bot full access
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Disallow bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://velvetnocturne.shop/sitemap.xml
