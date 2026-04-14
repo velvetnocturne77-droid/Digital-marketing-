@@ -14,9 +14,9 @@
   ],
   "env": {
     "MONGODB_URI": "mongodb_uri",
-    "ADMIN_EMAIL": "@admin_email",
-    "ADMIN_PASSWORD": "@admin_password",
-    "JWT_SECRET": "@jwt_secret",
+    "ADMIN_EMAIL": "admin_email",
+    "ADMIN_PASSWORD": "admin_password",
+    "JWT_SECRET": "jwt_secret",
     "CORS_ORIGIN": "https://velvetnocturne.shop",
     "NODE_ENV": "production"
   }
