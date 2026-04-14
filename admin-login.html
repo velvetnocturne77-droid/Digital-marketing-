@@ -138,11 +138,9 @@
             color: #FF6B35;
             text-decoration: none;
             font-size: 0.9rem;
-            margin: 0 0.5rem;
         }
         .footer-links a:hover {
             text-decoration: underline;
-            color: #F77F00;
         }
         .security-note {
             background: #f0f8ff;
@@ -165,7 +163,7 @@
         <h1>Admin Dashboard</h1>
         <p class="subtitle">Velvet Nocturne Digital Marketing</p>
         <div class="message" id="message"></div>
-        <form id="loginForm" method="POST">
+        <form id="loginForm">
             <div class="form-group">
                 <label for="email">Email Address</label>
                 <input type="email" id="email" name="email" required placeholder="Enter your email" autocomplete="email">
@@ -181,10 +179,10 @@
             <button type="submit" class="login-btn">Login to Dashboard</button>
         </form>
         <div class="security-note">
-            <strong>🔒 Security:</strong> This is a secure admin area. Never share your credentials with anyone.
+            <strong>🔒 Security:</strong> This is a secure admin area. Never share your credentials.
         </div>
         <div class="footer-links">
-            <a href="index.html">← Back to Home</a>
+            <a href="/">← Back to Home</a>
         </div>
     </div>
 
@@ -194,8 +192,15 @@
 
         form.addEventListener('submit', async (e) => {
             e.preventDefault();
-            const email = document.getElementById('email').value;
-            const password = document.getElementById('password').value;
+            const email = document.getElementById('email').value.trim();
+            const password = document.getElementById('password').value.trim();
+
+            if (!email || !password) {
+                messageDiv.textContent = 'Please enter email and password';
+                messageDiv.className = 'message error';
+                messageDiv.style.display = 'block';
+                return;
+            }
 
             try {
                 const response = await fetch('/api/auth/login', {
@@ -205,29 +210,34 @@
                 });
                 const data = await response.json();
 
-                if (response.ok) {
+                if (response.ok && data.token) {
                     localStorage.setItem('adminToken', data.token);
-                    messageDiv.textContent = 'Login successful! Redirecting...';
+                    messageDiv.textContent = '✓ Login successful! Redirecting...';
                     messageDiv.className = 'message success';
                     messageDiv.style.display = 'block';
-                    setTimeout(() => { window.location.href = 'admin-dashboard.html'; }, 1500);
+                    setTimeout(() => { window.location.href = '/admin-dashboard'; }, 1500);
                 } else {
-                    messageDiv.textContent = data.message || 'Login failed. Please check your credentials.';
+                    messageDiv.textContent = '✗ ' + (data.message || 'Login failed. Check credentials.');
                     messageDiv.className = 'message error';
                     messageDiv.style.display = 'block';
                 }
             } catch (error) {
-                messageDiv.textContent = 'Error connecting to server. Please try again.';
+                console.error('Error:', error);
+                messageDiv.textContent = '✗ Connection error. Please try again.';
                 messageDiv.className = 'message error';
                 messageDiv.style.display = 'block';
             }
         });
 
+        // Check if already logged in
         window.addEventListener('load', () => {
             const token = localStorage.getItem('adminToken');
             if (token) {
-                fetch('/api/auth/verify', { headers: { 'Authorization': `Bearer ${token}` } })
-                    .then(res => { if (res.ok) window.location.href = 'admin-dashboard.html'; });
+                fetch('/api/auth/verify', { 
+                    headers: { 'Authorization': `Bearer ${token}` } 
+                }).then(res => { 
+                    if (res.ok) window.location.href = '/admin-dashboard'; 
+                });
             }
         });
     </script>
