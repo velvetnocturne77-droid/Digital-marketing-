@@ -32,7 +32,7 @@
       "dest": "admin-dashboard.html"
     },
     {
-      "src": "^/sitemap\.xml$",
+      "src": "^/sitemap\\.xml$",
       "dest": "sitemap.xml"
     },
     {
