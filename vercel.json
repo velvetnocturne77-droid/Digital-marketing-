@@ -40,7 +40,8 @@
       "dest": "index.html"
     },
     {
-      "handle": "filesystem"
+      "src": "^/robots\\.txt$",
+      "dest": "robots.txt"
     },
     {
       "src": "/.*",
