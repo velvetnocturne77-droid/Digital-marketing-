@@ -17,30 +17,30 @@
     },
     {
       "src": "/contact",
-      "dest": "/Contact.html"
+      "dest": "Contact.html"
     },
     {
       "src": "/blog",
-      "dest": "/blog.html"
+      "dest": "blog.html"
     },
     {
       "src": "/admin-login",
-      "dest": "/admin-login.html"
+      "dest": "admin-login.html"
     },
     {
       "src": "/admin-dashboard",
-      "dest": "/admin-dashboard.html"
+      "dest": "admin-dashboard.html"
     },
     {
       "src": "/",
-      "dest": "/index.html"
+      "dest": "index.html"
     },
     {
       "handle": "filesystem"
     },
     {
       "src": "/.*",
-      "dest": "/404.html"
+      "dest": "404.html"
     }
   ],
   "env": {

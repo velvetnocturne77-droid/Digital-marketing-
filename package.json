@@ -2,10 +2,10 @@
   "name": "velvet-nocturne-backend",
   "version": "1.0.0",
   "description": "Backend for Velvet Nocturne Digital Marketing Website",
-  "main": "api/index.js",
+  "main": "api-server.js",
   "scripts": {
-    "start": "node api/index.js",
-    "dev": "nodemon api/index.js",
+    "start": "node api-server.js",
+    "dev": "nodemon api-server.js",
     "build": "echo 'Building for Vercel'"
   },
   "keywords": ["digital-marketing", "seo", "cms"],
