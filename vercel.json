@@ -8,31 +8,35 @@
   ],
   "routes": [
     {
-      "src": "/api",
+      "src": "^/api$",
       "dest": "api-server.js"
     },
     {
-      "src": "/api/(.*)",
+      "src": "^/api/(.*)$",
       "dest": "api-server.js"
     },
     {
-      "src": "/contact",
+      "src": "^/contact$",
       "dest": "Contact.html"
     },
     {
-      "src": "/blog",
+      "src": "^/blog$",
       "dest": "blog.html"
     },
     {
-      "src": "/admin-login",
+      "src": "^/admin-login$",
       "dest": "admin-login.html"
     },
     {
-      "src": "/admin-dashboard",
+      "src": "^/admin-dashboard$",
       "dest": "admin-dashboard.html"
     },
     {
-      "src": "/",
+      "src": "^/sitemap\.xml$",
+      "dest": "sitemap.xml"
+    },
+    {
+      "src": "^/$",
       "dest": "index.html"
     },
     {
