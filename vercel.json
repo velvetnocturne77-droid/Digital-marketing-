@@ -3,50 +3,50 @@
   "cleanUrls": true,
   "builds": [
     {
-      "src": "api-server.js",
+      "src": "api/index.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "^/api$",
-      "dest": "api-server.js"
+      "dest": "api/index.js"
     },
     {
       "src": "^/api/(.*)$",
-      "dest": "api-server.js"
+      "dest": "api/index.js"
     },
     {
       "src": "^/contact$",
-      "dest": "Contact.html"
+      "dest": "public/Contact.html"
     },
     {
       "src": "^/blog$",
-      "dest": "blog.html"
+      "dest": "public/blog.html"
     },
     {
       "src": "^/admin-login$",
-      "dest": "admin-login.html"
+      "dest": "public/admin-login.html"
     },
     {
       "src": "^/admin-dashboard$",
-      "dest": "admin-dashboard.html"
+      "dest": "public/admin-dashboard.html"
     },
     {
       "src": "^/sitemap\\.xml$",
-      "dest": "sitemap.xml"
-    },
-    {
-      "src": "^/$",
-      "dest": "index.html"
+      "dest": "public/sitemap.xml"
     },
     {
       "src": "^/robots\\.txt$",
-      "dest": "robots.txt"
+      "dest": "public/robots.txt"
+    },
+    {
+      "src": "^/$",
+      "dest": "public/index.html"
     },
     {
       "src": "/.*",
-      "dest": "404.html"
+      "dest": "public/404.html"
     }
   ],
   "env": {
