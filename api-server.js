@@ -5,6 +5,8 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
+const { xai } = require('@ai-sdk/xai');
+const { streamText } = require('ai');
 
 const app = express();
 
@@ -251,6 +253,78 @@ app.get('/api/contact', verifyToken, async (req, res) => {
         res.json(contacts);
     } catch (error) {
         res.status(500).json({ message: 'Server error', error: error.message });
+    }
+});
+
+// =====================
+// ROUTES - AI
+// =====================
+
+app.post('/api/ai/generate', async (req, res) => {
+    try {
+        const { prompt, model = 'grok-4' } = req.body;
+
+        if (!prompt) {
+            return res.status(400).json({ message: 'Prompt is required' });
+        }
+
+        if (!process.env.XAI_API_KEY) {
+            return res.status(500).json({ message: 'AI service not configured' });
+        }
+
+        const result = await streamText({
+            model: xai(model),
+            prompt: prompt
+        });
+
+        // Collect streamed text
+        let fullText = '';
+        for await (const textPart of result.textStream) {
+            fullText += textPart;
+        }
+
+        res.json({
+            success: true,
+            text: fullText,
+            model: model
+        });
+    } catch (error) {
+        console.error('AI generation error:', error);
+        res.status(500).json({ message: 'AI generation failed', error: error.message });
+    }
+});
+
+// Stream AI responses
+app.post('/api/ai/stream', async (req, res) => {
+    try {
+        const { prompt, model = 'grok-4' } = req.body;
+
+        if (!prompt) {
+            return res.status(400).json({ message: 'Prompt is required' });
+        }
+
+        if (!process.env.XAI_API_KEY) {
+            return res.status(500).json({ message: 'AI service not configured' });
+        }
+
+        res.setHeader('Content-Type', 'text/event-stream');
+        res.setHeader('Cache-Control', 'no-cache');
+        res.setHeader('Connection', 'keep-alive');
+
+        const result = await streamText({
+            model: xai(model),
+            prompt: prompt
+        });
+
+        for await (const textPart of result.textStream) {
+            res.write(`data: ${JSON.stringify({ text: textPart })}\n\n`);
+        }
+
+        res.write('data: [DONE]\n\n');
+        res.end();
+    } catch (error) {
+        console.error('AI stream error:', error);
+        res.status(500).json({ message: 'AI stream failed', error: error.message });
     }
 });
 
