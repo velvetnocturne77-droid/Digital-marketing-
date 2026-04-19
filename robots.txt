@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.pdf$
+Disallow: /cgi-bin/
+Disallow: /wp-admin/
+
+Crawl-delay: 1
+Request-rate: 30/60
+
+Sitemap: https://www.velvetnocturne.shop/sitemap.xml
