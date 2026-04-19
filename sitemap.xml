@@ -1,205 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
     
-    <!-- Homepage -->
+    <!-- Home Page -->
     <url>
         <loc>https://velvetnocturne.shop/</loc>
-        <lastmod>2025-04-08</lastmod>
+        <lastmod>2025-04-19</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-        <mobile:mobile/>
     </url>
 
-    <!-- SEO Services Page -->
+    <!-- SEO Services -->
     <url>
         <loc>https://velvetnocturne.shop/#seo</loc>
-        <lastmod>2025-04-08</lastmod>
+        <lastmod>2025-04-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
-        <mobile:mobile/>
     </url>
 
-    <!-- Keyword Research Section -->
-    <url>
-        <loc>https://velvetnocturne.shop/#seo-keyword-research</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <mobile:mobile/>
-    </url>
-
-    <!-- On-Page SEO Section -->
-    <url>
-        <loc>https://velvetnocturne.shop/#seo-on-page</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <mobile:mobile/>
-    </url>
-
-    <!-- Off-Page SEO & Backlinks Section -->
-    <url>
-        <loc>https://velvetnocturne.shop/#seo-off-page</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <mobile:mobile/>
-    </url>
-
-    <!-- Paid Advertising & PPC Services Page -->
+    <!-- Paid Advertising -->
     <url>
         <loc>https://velvetnocturne.shop/#paid-ads</loc>
-        <lastmod>2025-04-08</lastmod>
+        <lastmod>2025-04-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
-        <mobile:mobile/>
     </url>
 
-    <!-- Google Ads Section -->
-    <url>
-        <loc>https://velvetnocturne.shop/#google-ads</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <mobile:mobile/>
-    </url>
-
-    <!-- Social Media Advertising Section -->
-    <url>
-        <loc>https://velvetnocturne.shop/#social-ads</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <mobile:mobile/>
-    </url>
-
-    <!-- Content Marketing & Strategy Page -->
+    <!-- Content Marketing -->
     <url>
         <loc>https://velvetnocturne.shop/#content</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <mobile:mobile/>
-    </url>
-
-    <!-- Blog Posts Section -->
-    <url>
-        <loc>https://velvetnocturne.shop/#blog-posts</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-        <mobile:mobile/>
-    </url>
-
-    <!-- Multimedia Content Section -->
-    <url>
-        <loc>https://velvetnocturne.shop/#multimedia-content</loc>
-        <lastmod>2025-04-08</lastmod>
+        <lastmod>2025-04-19</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <mobile:mobile/>
+        <priority>0.9</priority>
     </url>
 
-    <!-- Social Media Marketing Services Page -->
+    <!-- Social Media Marketing -->
     <url>
         <loc>https://velvetnocturne.shop/#social</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>weekly</changefreq>
+        <lastmod>2025-04-19</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.9</priority>
-        <mobile:mobile/>
     </url>
 
-    <!-- Instagram Marketing Section -->
-    <url>
-        <loc>https://velvetnocturne.shop/#instagram-marketing</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <mobile:mobile/>
-    </url>
-
-    <!-- Facebook Marketing Section -->
-    <url>
-        <loc>https://velvetnocturne.shop/#facebook-marketing</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <mobile:mobile/>
-    </url>
-
-    <!-- LinkedIn Marketing Section -->
-    <url>
-        <loc>https://velvetnocturne.shop/#linkedin-marketing</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <mobile:mobile/>
-    </url>
-
-    <!-- Influencer Marketing Section -->
-    <url>
-        <loc>https://velvetnocturne.shop/#influencer-marketing</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-        <mobile:mobile/>
-    </url>
-
-    <!-- Email Marketing & Analytics Page -->
+    <!-- Analytics & Email -->
     <url>
         <loc>https://velvetnocturne.shop/#analytics</loc>
-        <lastmod>2025-04-08</lastmod>
+        <lastmod>2025-04-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
-        <mobile:mobile/>
     </url>
 
-    <!-- Email Marketing Section -->
-    <url>
-        <loc>https://velvetnocturne.shop/#email-marketing</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <mobile:mobile/>
-    </url>
-
-    <!-- Google Analytics Section -->
-    <url>
-        <loc>https://velvetnocturne.shop/#google-analytics</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <mobile:mobile/>
-    </url>
-
-    <!-- Advanced Marketing Concepts Section -->
-    <url>
-        <loc>https://velvetnocturne.shop/#advanced-marketing</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <mobile:mobile/>
-    </url>
-
-    <!-- Why Choose Us Section -->
-    <url>
-        <loc>https://velvetnocturne.shop/#why-choose-us</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-        <mobile:mobile/>
-    </url>
-
-    <!-- Contact Section -->
+    <!-- Contact -->
     <url>
         <loc>https://velvetnocturne.shop/#contact</loc>
-        <lastmod>2025-04-08</lastmod>
+        <lastmod>2025-04-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <mobile:mobile/>
+    </url>
+
+    <!-- Blog Page -->
+    <url>
+        <loc>https://velvetnocturne.shop/blog</loc>
+        <lastmod>2025-04-19</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Blog Article 1 -->
+    <url>
+        <loc>https://velvetnocturne.shop/blog/seo-guide-2025</loc>
+        <lastmod>2025-03-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Blog Article 2 -->
+    <url>
+        <loc>https://velvetnocturne.shop/blog/google-ads-strategy</loc>
+        <lastmod>2025-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Blog Article 3 -->
+    <url>
+        <loc>https://velvetnocturne.shop/blog/content-marketing-strategy</loc>
+        <lastmod>2025-03-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Blog Article 4 -->
+    <url>
+        <loc>https://velvetnocturne.shop/blog/social-media-marketing</loc>
+        <lastmod>2025-03-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Blog Article 5 -->
+    <url>
+        <loc>https://velvetnocturne.shop/blog/email-marketing-campaigns</loc>
+        <lastmod>2025-03-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Blog Article 6 -->
+    <url>
+        <loc>https://velvetnocturne.shop/blog/on-page-seo-optimization</loc>
+        <lastmod>2025-03-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Blog Article 7 -->
+    <url>
+        <loc>https://velvetnocturne.shop/blog/backlink-building-guide</loc>
+        <lastmod>2025-03-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Blog Article 8 -->
+    <url>
+        <loc>https://velvetnocturne.shop/blog/facebook-ads-mastery</loc>
+        <lastmod>2025-03-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Blog Article 9 -->
+    <url>
+        <loc>https://velvetnocturne.shop/blog/google-analytics-guide</loc>
+        <lastmod>2025-02-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Blog Article 10 -->
+    <url>
+        <loc>https://velvetnocturne.shop/blog/local-seo-small-business</loc>
+        <lastmod>2025-02-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
 
 </urlset>
