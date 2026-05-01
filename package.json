@@ -1,0 +1,14 @@
+{
+  "name": "digital-marketing",
+  "version": "1.0.0",
+  "description": "Digital Marketing & SEO Services website",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Static site - no build needed'",
+    "install-insights": "npm install"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  },
+  "devDependencies": {}
+}
